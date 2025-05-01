@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #000000;
+}
+
+header {
+    background-color: url('./img/webcat.jpg');
+    padding: 20px;
+    text-align: center;
+}
+
+.cat-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cat {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    width: 200px;
+}
+
+.cat img {
+    max-width: 100%;
+    border-radius: 5px;
+}
